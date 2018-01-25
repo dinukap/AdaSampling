@@ -1,0 +1,27 @@
+Package: AdaSampling
+Type: Package
+Title: Package for positive unlabeled and label noise learning
+Version: 0.0.0.9000
+Author: Pengyi Yang & Dinuka Perera
+Maintainer: Dinuka Perera <kper7588@uni.sydney.edu.au>
+Description: Implements the AdaSampling procedure, a framework for both positive
+    unlabeled learning and learning with class label noise, which wraps around a
+    traditional classifying algorithm. See our publication for details, 
+    documentation and examples.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 3.4.3)
+LazyData: true
+Imports: caret (>= 6.0-78) ,
+    class (>= 7.3-14),
+    e1071 (>= 1.6-8),
+    stats
+BugReports: https://github.com/dinukap/AdaSampling/issues
+RoxygenNote: 6.0.1
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: http://github.com/dinukap/AdaSampling/
+
+
